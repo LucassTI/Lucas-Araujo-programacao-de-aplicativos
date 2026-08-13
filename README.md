@@ -1,1 +1,1 @@
-# -Lucas-Ara-jo---Modelagem-de-Sistemas---SM2
+# Lucas-Ara-jo---Modelagem-de-Sistemas---SM2
