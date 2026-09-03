@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Fundo inicial neutro/escuro */
+    background: linear-gradient(135deg, #111, #222);
+    /* Transição suave de 0.8 segundos para a cor do fundo */
+    transition: background 0.8s ease;
+}
+
+/* Gradientes personalizados com as cores oficiais de cada time */
+body.bg-bahia {
+    background: linear-gradient(135deg, #00adef 0%, #ffffff 50%, #ed1c24 100%);
+}
+
+body.bg-vitoria {
+    background: linear-gradient(135deg, #000000 30%, #ff0000 100%);
+}
+
+body.bg-vasco {
+    background: linear-gradient(135deg, #000000 0%, #333333 70%, #ffffff 100%);
+}
+
+body.bg-palmeiras {
+    background: linear-gradient(135deg, #004d25 0%, #00984a 100%);
+}
+
+body.bg-gremio {
+    background: linear-gradient(135deg, #0d80bf 0%, #000000 50%, #ffffff 100%);
+}
+
+img {
+    height: 500px;
+    border-radius: 30px;
+}
+
+#central {
+    background-color: transparent ;
+    width: fit-content;
+    box-shadow: 3px 3px 8px transparent;
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.botoes {
+    display: flex;
+    flex-wrap: wrap;            /* Permite que os botões pulem de linha se não couberem */
+    justify-content: center;    /* Centraliza os botões horizontalmente */
+    gap: 10px;                  /* Espaço uniforme entre cada botão */
+    margin-top: 20px;           /* Espaçamento entre a imagem e os botões */
+    max-width: 100%;            /* Limita a largura ao contêiner principal */
+}
+
+button {
+    font-size: 20px;
+    width: 115px ;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 0 9px;
+}
+
+#bahia {
+    background-color: cyan;
+}
+#vitoria {
+    background-color: red;
+}
+#vasco {
+    background-color: black;
+}
+#palmeiras {
+    background-color: green;
+}
+#gremio {
+    background-color: #054af9;
+}
