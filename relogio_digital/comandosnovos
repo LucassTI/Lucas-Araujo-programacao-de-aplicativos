@@ -1,0 +1,13 @@
+PRINCIPAIS
+new Date()
+SetInterval()
+--------------------------------------
+SECUNDÁRIOS
+getHours()
+getMinutes
+getSeconds
+getDate
+getMonth
+getFullYear
+
+Exemplo: setInterval(pular, 5000(trabalha em milésimos)) (comando manda fazer uma ação automaticamente em um tempo específico)
