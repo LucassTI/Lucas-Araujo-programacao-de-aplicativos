@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    background-image: url(../images/healthy-lunch-go-packed-lunch-box.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central{
+    background:  rgba(245, 243, 242, 0.527);
+    width: 40%;
+    display: flex ;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    box-shadow: 1px 1px 5px white;
+}
+
+.central input{
+    width: 100%;
+    height: 20px;
+    border: 2px solid cyan;
+    border-radius: 20px;
+}
+
+.central button{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: solid white 1px;
+    background: cyan;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+        background: black;
+        color: white;
+        transition: 0.5s ;
+        transform: scale(1.1);
+    }
+}
+
+.central span{
+    font-size: 20px;
+    color: cyan;
+    border: 2px solid white;
+    width: fit-content;
+    height: fit-content;
+
+}
