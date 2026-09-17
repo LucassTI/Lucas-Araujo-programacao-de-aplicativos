@@ -1,0 +1,74 @@
+body{
+    height: 100vh;
+    background-image: url(../imagens/dim-and-empty-classroom-3xibs30r085n6bm8.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
+#msg_acima_da_caixa {
+    width: 40%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0);
+    border-radius: 20px;
+    background: linear-gradient(green,white,green);
+
+
+}
+
+.central {
+    background: linear-gradient(green,white,green);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    box-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+
+.central input{
+    width: 100%;
+    height: 20px;
+    border: 2px solid black ;
+    border-radius: 20px ;
+}
+
+.central button {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: solid white 1px;
+    background: green;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+        background: black;
+        color: white;
+        transition: 0.5s ;
+        transform: scale(1.1);
+    }
+}
+
+.central span{
+    font-size: 28px;
+    color: black;
+    border: 2px solid rgba(255, 255, 255, 0);
+    box-shadow:  2px 2px 6px transparent;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
